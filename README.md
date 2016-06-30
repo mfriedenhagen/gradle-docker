@@ -1,7 +1,9 @@
 # mfriedenhagen/gradle
 
 A Java development image with Gradle installed. Gradle is run as user `user` and 
-working directory is set to build to be suitable for [gitlab-ci][]
+working directory is set to `build` to be suitable for [gitlab-ci][]
+
+`/home/user/.gradle` is exposed as volume.
 
 ## License
 
